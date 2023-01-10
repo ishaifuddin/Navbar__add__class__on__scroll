@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.menus {
+  background: green;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  top: 0;
+  height: 70px;
+}
+.menus.active {
+  background-color: tomato;
+  box-shadow: 0 0.375rem 1.5rem 0 rgb(140 152 164 / 13%);
+}
